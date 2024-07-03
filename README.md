@@ -19,6 +19,7 @@ Open the solution file named BankingSystem.sln and hit run.
 3. Testing:
   *	Write unit tests to verify that the fixed and refactored code works correctly.
   *	Ensure the tests cover various edge cases and scenarios.
+
 Bonus: 
   *	Implement additional features such as account transfers or transaction history. 
   *	Add exception handling and validation to ensure robust input handling.
@@ -28,7 +29,8 @@ Assumptions –
   *	Transactions must be made with a positive value.
   *	Users will not need to view all accounts and will know the ID of whichever account they wish to view as if by magic.
   *	For the basic account functionality, It is A-Okay to withdraw or deposit values with any amount decimal places
-  *	We only care about holding the: ID, DateTime, Amount, and type of transaction. We also have no reason to think the user should be able to update them. nor do we believe that the transactions should ever have to change in future. 
+  *	We only care about holding the: ID, DateTime, Amount, and type of transaction. We also have no reason to think the user should be able to update them. nor do we believe that the transactions should ever have to change in future.
+
 Review – 
 Good Practice:
   *	The application is commented throughout.
@@ -36,6 +38,7 @@ Good Practice:
   *	Basic account has tests
   *	Application is abstract and allows for changes to the Account, Account manager, and the UI.
   *	Uses error handling throughout.
+
 Could be better:
   *	More testing could be added for edge cases, and to cover more of the application. 
   *	It would be reasonable if you didn’t want to Display the Account from the account obj.
